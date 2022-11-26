@@ -1,0 +1,30 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/rr5-cra/node_modules
+/rr6-cra/node_modules
+/rr6-data-cra/node_modules
+/tanstack-cra/node_modules
+/rr5-cra/.pnp
+/rr6-cra/.pnp
+/rr6-data-cra/.pnp
+/tanstack-cra/.pnp
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
