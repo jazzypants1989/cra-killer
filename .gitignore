@@ -1,15 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/rr5-cra/node_modules
-/rr6-cra/node_modules
-/rr6-data-cra/node_modules
-/tanstack-cra/node_modules
-/rr5-cra/.pnp
-/rr6-cra/.pnp
-/rr6-data-cra/.pnp
-/tanstack-cra/.pnp
-/.pnp
+node_modules
+.pnp
 .pnp.js
 
 # testing
