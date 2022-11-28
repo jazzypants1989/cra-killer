@@ -1,2 +1,3 @@
 packages:
   - '*-cra'
+  - 'astro-spa-*'
