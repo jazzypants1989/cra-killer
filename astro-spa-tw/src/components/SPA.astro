@@ -13,6 +13,6 @@ let path = url.pathname;
     <title>Astro</title>
   </head>
   <body>
-    <SPA path={path} />
+    <SPA client:only="react" path={path} />
   </body>
 </html>

@@ -40,6 +40,7 @@ importers:
       astro: ^1.6.11
       react: ^18.0.0
       react-dom: ^18.0.0
+      rr6-cra: '*'
       tailwindcss: ^3.0.24
     dependencies:
       '@astrojs/react': 1.2.2_cn3ejhfta5lq2dae4xucvtkwvu
@@ -49,6 +50,7 @@ importers:
       astro: 1.6.11
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
+      rr6-cra: link:../rr6-cra
       tailwindcss: 3.2.4
 
   rr5-cra:

@@ -8,5 +8,8 @@ import react from "@astrojs/react";
 
 // https://astro.build/config
 export default defineConfig({
+  vite: {
+    publicDir: "../rr6-cra/public",
+  },
   integrations: [tailwind(), react()]
 });
