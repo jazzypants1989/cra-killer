@@ -31,6 +31,12 @@ importers:
       react-dom: 18.2.0_react@18.2.0
       react-router-dom: 6.4.3_biqbaboplfbrettd7655fr4n2y
 
+  astro-spa-tw:
+    specifiers:
+      astro: ^1.6.11
+    dependencies:
+      astro: 1.6.11
+
   rr5-cra:
     specifiers:
       '@testing-library/jest-dom': ^5.16.5
