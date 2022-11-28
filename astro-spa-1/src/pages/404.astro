@@ -1,0 +1,13 @@
+---
+import App from "../components/src/App"
+
+let url = new URL(Astro.request.url)
+let path = url.pathname
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <App client:idle path={path} />
+  </body>
+</html>
