@@ -1,2 +1,4 @@
 packages:
   - '*-cra'
+  - 'astro-spa-*'
+  - 'vite-*'
