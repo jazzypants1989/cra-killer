@@ -31,3 +31,13 @@ nr -C rr5-cra start
 ```
 
 and replace `rr5-cra` with `rr6-cra`, `rr6-data-cra`, or `tanstack-cra` to run the other apps.
+
+## Fancy demo
+
+Run any one of those and be amazed:
+
+```bash
+pnpm start
+pnpm start-vite
+pnpm start-astro
+```
